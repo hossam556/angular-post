@@ -1,0 +1,11 @@
+<!-- <h1 (click)="postexist()">iam id {{id}}</h1> -->
+<div class="post_container">
+    <div class="title_container">
+        <h4 >{{post?.title}}</h4>
+        <div>
+            <fa-icon [icon]="faPen"></fa-icon>
+           <span class="delete_icon"><fa-icon [icon]="faTrash"></fa-icon> </span>            
+        </div>
+    </div>
+    <p>{{post?.body}}</p>
+</div>
